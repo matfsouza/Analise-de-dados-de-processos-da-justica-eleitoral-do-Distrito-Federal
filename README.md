@@ -1,6 +1,6 @@
 # Trabalho Processos ⚖️📊
 
-Olá! Seja bem-vindo(a) ao repositório **Trabalho Processos**! Este projeto foi desenvolvido em C para demonstrar a manipulação de dados de processos eleitorais utilizando o conceito de Tipo Abstrato de Dados (TAD). Aqui, o código realiza diversas operações de leitura, processamento e ordenação dos dados de processos de forma totalmente manual — sem o uso de funções avançadas de bibliotecas para ordenação ou busca — deixando o projeto organizado, modular e com um toque de criatividade! 😄
+Olá! Seja bem-vindo(a) ao repositório de **Análise de dados de processos da justiça eleitoral do Distrito Federal**! Este projeto foi desenvolvido em C para demonstrar a manipulação de dados de processos eleitorais utilizando o conceito de Tipo Abstrato de Dados (TAD). Aqui, o código realiza diversas operações de leitura, processamento e ordenação dos dados de processos de forma totalmente manual — sem o uso de funções avançadas de bibliotecas para ordenação ou busca — deixando o projeto organizado, modular e com um toque de criatividade! 💻
 
 ---
 
@@ -35,12 +35,12 @@ Neste projeto, o programa realiza as seguintes operações:
 
 O código foi organizado em três arquivos, seguindo as diretrizes do TAD, para manter o projeto bem modularizado:
 
-trabalho_processos/ 
-├── main.c # Função principal e coordenação das operações 
-├── processo.c # Implementação do TAD Processo e das funções de manipulação 
-├── processo.h # Cabeçalho com a definição da struct Processo e os protótipos das funções 
-├── processo_043_202409032338.csv # Arquivo CSV com os dados dos processos (entrada) 
-└── README.md # Este arquivo, com todas as informações sobre o projeto
+- **trabalho_processos/**
+  - ├── main.c # Função principal e coordenação das operações 
+  - ├── processo.c # Implementação do TAD Processo e das funções de manipulação 
+  - ├── processo.h # Cabeçalho com a definição da struct Processo e os protótipos das funções 
+  - ├── processo_043_202409032338.csv # Arquivo CSV com os dados dos processos (entrada) 
+  - └── README.md # Este arquivo, com todas as informações sobre o projeto
 
 
 Cada operação (ordenar, contar, listar e calcular dias) foi implementada em uma função específica, garantindo que o código seja claro e fácil de manter.
